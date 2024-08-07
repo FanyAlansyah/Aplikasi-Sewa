@@ -44,7 +44,9 @@ INSERT INTO `mobil` (`id`, `no_plat`, `merek`, `model`, `harga`, `status`) VALUE
 (1, 'N889K', 'Toyota', 'CRv', 200000, 'Tersedia'),
 (2, 'H009L', 'Honda', 'Civic R', 500000, 'Tersedia'),
 (3, 'M000P', 'Toyota', 'Totota V', 300000, 'Tidak Tersedia'),
-(4, 'K009P', 'Honda', 'Mobilio k', 200000, 'Tersedia');
+(4, 'K009P', 'Honda', 'Mobilio k', 200000, 'Tersedia'),
+(5, 'KL0098LP', 'Honda', 'Honda BRv', 40000, 'Tersedia'),
+(6, 'B9900BN', 'Mitsubishi', 'Canter 135Ps', 100000, 'Tersedia');
 
 -- --------------------------------------------------------
 
