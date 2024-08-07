@@ -41,12 +41,13 @@ CREATE TABLE `mobil` (
 --
 
 INSERT INTO `mobil` (`id`, `no_plat`, `merek`, `model`, `harga`, `status`) VALUES
-(1, 'N889K', 'Toyota', 'CRv', 200000, 'Tersedia'),
+(1, 'N889K', 'Toyota', 'Toyota CRv', 200000, 'Tersedia'),
 (2, 'H009L', 'Honda', 'Civic R', 500000, 'Tersedia'),
 (3, 'M000P', 'Toyota', 'Totota V', 300000, 'Tidak Tersedia'),
 (4, 'K009P', 'Honda', 'Mobilio k', 200000, 'Tersedia'),
 (5, 'KL0098LP', 'Honda', 'Honda BRv', 40000, 'Tersedia'),
-(6, 'B9900BN', 'Mitsubishi', 'Canter 135Ps', 100000, 'Tersedia');
+(6, 'B9900BN', 'Mitsubishi', 'Canter 135Ps', 100000, 'Tersedia'),
+(7, 'K99009MN', 'Honda', 'Mobilio R', 90000, 'Tidak Tersedia');
 
 -- --------------------------------------------------------
 
@@ -82,7 +83,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `alamat`, `telepon`, `no_sim`, `password`) VALUES
-('feri', 'palembang', '020115145565', 2147483647, 'feri');
+('feri', 'palembang', '020115145565', 2147483647, 'feri'),
+('indah', 'palembang', '088644553535', 333334444, 'indah);
 
 --
 -- Indexes for dumped tables
